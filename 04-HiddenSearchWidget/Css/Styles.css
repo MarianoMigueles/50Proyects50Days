@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --clr-background-color: linear-gradient(to right,#ff5044, #ffae44);
+    --clr-card-color: #fff;
+    --clr-searcher-background-color: #d8d8d8;
+    --clr-main-color: #F36F56;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: var(--clr-background-color)
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: none;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+h1, small {
+    margin: 5px;
+}
+
+h1  {
+    font-size: 35px;
+}
+
+small {
+    font-size: 15px;
+}
+
+i {
+    color: var(--clr-main-color);
+    font-size: 20px;
+}
+
+.searcher-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+
+    background: var(--clr-card-color);
+}
+
+.content {
+    margin-top: 30px;
+
+    position: relative;
+    flex-direction: row;
+}
+
+.content #btn-search-icon {
+    position: absolute;
+    right: 0;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--clr-main-color);
+
+    background: var(--clr-searcher-background-color);
+}
+
+.content #input-text {
+    font-size: 18px;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 10px;
+
+    background: var(--clr-searcher-background-color);
+
+    transition: width 0.5s ease-in-out;
+}
+
+.content input:focus, .content button:focus {
+    outline: none;
+}
+
+#input-text.active {
+    width: 300px;
+    padding-right: 65px; 
+}
+
+
+
