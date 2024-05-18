@@ -13,7 +13,7 @@ Mis objetivos:
 3. Intentar mejorar la versión original de cada proyecto.
 4. Solo valerme de la ayuda visual de la demo de cada proyecto, sin depender del código.
 5. Recopilar todo lo aprendido con este desafío.
-#
+##
 ### ¿Qué he aprendido hasta ahora? - 💡
 
 1- Inserción de imágenes en las etiquetas style de HTML
@@ -48,3 +48,11 @@ Mis objetivos:
     transform: translateX(400%);
   }
   ```
+  
+# Author - 💪​
+
+- Linkedin - [in/mariano-joel-migueles](https://www.linkedin.com/in/mariano-joel-migueles/)
+
+#
+### Menciones
+Algunas de las ideas visuales fueron sacadas de [Gabriel-Teresczuk](https://github.com/gabrielteresczuk/50Proyects50Days/tree/master). gracias 💪
