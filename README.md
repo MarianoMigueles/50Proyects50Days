@@ -10,7 +10,6 @@ Esta es mi versión del desafío de 50 proyectos en 50 días ***HTML - CSS - JAV
 ## Descripción - 💻
 Estoy realizando este proyecto, a modo de práctica, propuesto por [50projects50days](https://github.com/bradtraversy/50projects50days), para mejorar mis conocimientos en HTML, CSS y JavaScript.  
 A medida que vaya terminando cada proyecto, iré agregándolos a este repositorio.  
-Finalmente, diseñaré una interfaz para poder visualizar cada proyecto de una manera más cómoda y sencilla.  
 
 Mis objetivos:
 
