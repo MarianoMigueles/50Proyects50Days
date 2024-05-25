@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Consolas:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    font-family: 'Consolas', sans-serif;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 1rem 5rem;
+}
+
+main {
+    margin: 50px 0px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+a, span {
+    color: #DF748F;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.center-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#proyect-container {
+    flex-wrap: wrap;
+}
+
+.proyect-card {
+    width: 20rem;
+    height: 20rem;
+
+    background: #313131;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 4px #00000050;
+
+    transition: transform 0.3s ease-in-out;
+
+    z-index: 1;
+}
+
+.proyect-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.proyect-card img {
+    width: 100%;
+    height: 100%;
+    max-height: 65%;
+
+    border-radius: 10px 10px 0 0;
+
+    margin-bottom: 20px;
+}
+
+/*
+
+.proyect-card button {
+    background: linear-gradient(to right, #8830A1, #DF748F);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    border: 0;
+    border-radius: 10px;
+
+    padding: 5% 10%;
+
+    cursor: pointer;
+}
+
+*/
+
+.proyect-card h3, .proyect-card span {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.proyect-card button:active {
+    transform: scale(0.95);
+}
+
+footer p, footer span {
+    text-align: center;
+    font-style: italic;
+    color: #E7DCD1;
+}
