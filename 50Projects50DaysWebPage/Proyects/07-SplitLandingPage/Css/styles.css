@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --clr-left-color: rgba(87, 84, 236, 0.7);
+    --clr-right-color:  rgba(43, 43, 43, 0.8);
+    --clr-left-btn-hover-color: rgba(87, 84, 236, 1);
+    --clr-right-btn-hover-color: rgba(28, 122, 28, 1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+    white-space: nowrap;
+    color: white;
+
+    transform: translateY(-70px);
+}
+
+.center-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    transform: translateY(-100px);
+
+    width: 15rem;
+    height: 70px;
+
+    background: none;
+    border: 3px solid white;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.left-container .btn:hover {
+    background-color: var(--clr-left-btn-hover-color);
+    border-color: var(--clr-left-btn-hover-color);
+}
+
+.right-container .btn:hover{
+    background-color: var(--clr-right-btn-hover-color);
+    border-color: var(--clr-right-btn-hover-color);
+}
+
+.left-container, .right-container  {
+    flex: 2.5;
+
+    width: auto;
+    height: 100vh;
+
+    position: relative;
+
+    transition: all 1.3s ease;
+}
+
+.left-container {
+    background-image: url('../Assets/Img/Ps5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-container {
+    background-image: url('../Assets/Img/XboxX.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: absolute;
+    flex-direction: column;
+}
+
+.left-container::before, .right-container::before {
+    content: '';
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.left-container::before {
+    background-color: var(--clr-left-color);
+}
+
+.right-container::before {
+     background-color: var(--clr-right-color);
+}
+
+.left-container:hover, .right-container:hover{
+    flex: 7;
+    z-index: 3;
+}
+
+.left-container .content h1 {
+    z-index: 1; 
+}
+
+.right-container .content h1 {
+    z-index: 1; 
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+        transform: translateY(-90px);
+    }
+
+    .btn {
+        width: 10rem;
+        font-size: 15px;
+    }
+}
