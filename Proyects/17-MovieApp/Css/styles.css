@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-main: #22254b;
+    --clr-secondary: #373b69;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-main);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 90px 10px 10px 10px;
+}
+
+
+/*--------------------------------------------------------------
+# Help classes
+--------------------------------------------------------------*/
+
+.center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------------------------------------------
+# Navigation Bar
+--------------------------------------------------------------*/
+
+.navigation-bar {
+    position: fixed;
+    justify-content: space-between; 
+    width: 100%;
+
+    background-color: var(--clr-secondary);
+    font-size: 20px;
+    font-style: italic;
+
+    padding: 0 20px;
+
+    z-index: 1000;
+}
+
+.navigation-bar b {
+    font-size: 23px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+
+    background-color: transparent;
+    color: inherit;
+
+    border: 2px solid var(--clr-main);
+    border-radius: 10px;
+
+    padding: 0 10px;
+}
+
+input:focus {
+    outline: none;
+    background-color: var(--clr-main);
+}
+
+input::placeholder {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*--------------------------------------------------------------
+# Movie Container classes
+--------------------------------------------------------------*/
+
+.movie-container {
+    position: relative;
+    flex-direction: column;
+    width: 20rem;
+
+    background-color: var(--clr-secondary);
+
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.movie-info {
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+
+    padding: 0 10px;
+}
+
+img {
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.movie-info p {
+    padding: 5px;
+    background-color: var(--clr-main);
+    color: orange;
+}
+
+.movie-info.description {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    bottom: -100%;
+
+    background-color: white;
+
+    padding: 0 20px;
+
+    transition: bottom 0.4s ease-in;
+}
+
+.movie-info.description p, .movie-info.description h3  {
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    padding: 0;
+}
+
+.movie-container:hover > .movie-info.description {
+    bottom: 0;   
+}   
