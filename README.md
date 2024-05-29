@@ -1,7 +1,7 @@
 
 # 50Projects50Days
 
-![preview](./Db/Img/00-My50Proyects50DaysPreview.png)
+![preview](./Db/Img/)
 
 Esta es mi versión del desafío de 50 proyectos en 50 días ***HTML - CSS - JAVASCRIPT*** 
   
