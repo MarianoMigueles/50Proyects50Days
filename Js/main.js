@@ -24,7 +24,6 @@ function generateNewProyectCard(proyects) {
         proyectsContainer.appendChild(div);
 
         div.addEventListener('click', () => {
-            console.log(proyect.id);
             window.location.href = proyect.Link;
         });
     });
