@@ -2,120 +2,134 @@
     {
         "id": "01",
         "name": "Expanding Cards",
-        "image": "./Db/Img/01-ExpandigCards.png",
+        "image": "./Db/Img/01-ExpandigCards.webp",
         "Gif": "",
         "Link": "./Proyects/01-ExpandingCards/index.html"
     },
     {
         "id": "02",
         "name": "Progress Steps",
-        "image": "./Db/Img/02-ProgressSteps.png",
+        "image": "./Db/Img/02-ProgressSteps.webp",
         "Gif": "",
         "Link": "./Proyects/02-ProgressSteps/index.html"
     },
     {
         "id": "03",
         "name": "Rotating Navigation",
-        "image": "./Db/Img/03-RotatingNavigationAnimation.png",
+        "image": "./Db/Img/03-RotatingNavigationAnimation.webp",
         "Gif": "",
         "Link": "./Proyects/03-RotatingNavigationAnimation/index.html"
     },
     {
         "id": "04",
         "name": "Hidden Search",
-        "image": "./Db/Img/04-HiddenSearchWidget.png",
+        "image": "./Db/Img/04-HiddenSearchWidget.webp",
         "Gif": "",
         "Link": "./Proyects/04-HiddenSearchWidget/index.html"
     },
     {
         "id": "05",
         "name": "Blurry Loading",
-        "image": "./Db/Img/05-BlurryLoading.png",
+        "image": "./Db/Img/05-BlurryLoading.webp",
         "Gif": "",
         "Link": "./Proyects/05-BlurryLoading/index.html"
     },
     {
         "id": "06",
         "name": "Scroll Animation",
-        "image": "./Db/Img/06-ScrollAnimation.png",
+        "image": "./Db/Img/06-ScrollAnimation.webp",
         "Gif": "",
         "Link": "./Proyects/06-ScrollAnimation/index.html"
     },
     {
         "id": "07",
         "name": "Split Landing Page",
-        "image": "./Db/Img/07-SplitLandingPage.png",
+        "image": "./Db/Img/07-SplitLandingPage.webp",
         "Gif": "",
         "Link": "./Proyects/07-SplitLandingPage/index.html"
     },
     {
         "id": "08",
         "name": "Form Wave",
-        "image": "./Db/Img/08-FormWave.png",
+        "image": "./Db/Img/08-FormWave.webp",
         "Gif": "",
         "Link": "./Proyects/08-FormWave/index.html"
     },
     {
         "id": "09",
         "name": "Sound Board",
-        "image": "./Db/Img/09-SoundBoard.png",
+        "image": "./Db/Img/09-SoundBoard.webp",
         "Gif": "",
         "Link": "./Proyects/09-SoundBoard/index.html"
     },
     {
         "id": "10",
         "name": "Dad Jokes",
-        "image": "./Db/Img/10-DadJokes.png",
+        "image": "./Db/Img/10-DadJokes.webp",
         "Gif": "",
         "Link": "./Proyects/10-DadJokes/index.html"
     },
     {
         "id": "11",
         "name": "Event KeyCodes",
-        "image": "./Db/Img/11-EventKeycodes.png",
+        "image": "./Db/Img/11-EventKeycodes.webp",
         "Gif": "",
         "Link": "./Proyects/11-EventKeycodes/index.html"
     },
     {
         "id": "12",
         "name": "Faq Collapse",
-        "image": "./Db/Img/12-FaqCollapse.png",
+        "image": "./Db/Img/12-FaqCollapse.webp",
         "Gif": "",
         "Link": "./Proyects/12-FaqCollapse/index.html"
     },
     {
         "id": "13",
         "name": "Random Choice Picker",
-        "image": "./Db/Img/13-RandomChoicePicker.png",
+        "image": "./Db/Img/13-RandomChoicePicker.webp",
         "Gif": "",
         "Link": "./Proyects/13-RandomChoicePicker/index.html"
     },
     {
         "id": "14",
         "name": "Animated Navigation",
-        "image": "./Db/Img/14-AnimatedNavigation.png",
+        "image": "./Db/Img/14-AnimatedNavigation.webp",
         "Gif": "",
         "Link": "./Proyects/14-AnimatedNavigation/index.html"
     },
     {
         "id": "15",
         "name": "Incrementing Counter",
-        "image": "./Db/Img/15-IncrementingCounter.png",
+        "image": "./Db/Img/15-IncrementingCounter.webp",
         "Gif": "",
         "Link": "./Proyects/15-IncrementingCounter/index.html"
     },
     {
         "id": "16",
         "name": "Drink Water",
-        "image": "./Db/Img/16-DrinkWater.png",
+        "image": "./Db/Img/16-DrinkWater.webp",
         "Gif": "",
         "Link": "./Proyects/16-DrinkWater/index.html"
     },
     {
         "id": "17",
         "name": "Movie App",
-        "image": "./Db/Img/17-MovieApp.png",
+        "image": "./Db/Img/17-MovieApp.webp",
         "Gif": "",
         "Link": "./Proyects/17-MovieApp/index.html"
+    },
+    {
+        "id": "18",
+        "name": "Background Slider",
+        "image": "./Db/Img/18-BackgroundSlider.webp",
+        "Gif": "",
+        "Link": "./Proyects/18-BackgroundSlider/index.html"
+    },
+    {
+        "id": "19",
+        "name": "Theme Clock",
+        "image": "./Db/Img/19-ThemeClock.webp",
+        "Gif": "",
+        "Link": "./Proyects/19-ThemeClock/index.html"
     }
 ]
