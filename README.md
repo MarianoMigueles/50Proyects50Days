@@ -57,7 +57,3 @@ Mis objetivos:
 # Author - 💪​
 
 - Linkedin - [in/mariano-joel-migueles](https://www.linkedin.com/in/mariano-joel-migueles/)
-
-#
-### Menciones
-Algunas de las ideas visuales fueron sacadas de [Gabriel-Teresczuk](https://github.com/gabrielteresczuk/50Proyects50Days/tree/master). Gracias 💪
